@@ -14,14 +14,14 @@ export default function NavBar () {
                   activeClassName="text-pink-800"
                   className="inline-flex items-center py-6 px-3 mr-4 text-purple-100 hover:text-pink-800 text-4xl font-bold cursive tracking-widest"
                   >
-                    Home
+                    Joanna
                   </NavLink>
                   <NavLink 
                   to="/about"
                   activeClassName="text-pink-800" 
                   className="inline-flex items-center py-3 px-3 my-6 rounded text-purple-200 hover:text-pink-800 sans-serif"
                   >
-                    About Me
+                    About
                   </NavLink> 
                   <NavLink 
                   to="/project"
@@ -31,16 +31,16 @@ export default function NavBar () {
                     Projects
                   </NavLink>
                   <NavLink 
-                  to="/post"
+                  to="/contact"
                   className="inline-flex items-center py-3 px-3 my-6 rounded text-purple-200 hover:text-pink-800 sans-serif"
                   activeClassName="text-pink-800"  
                   >
-                    Blog Posts
-                  </NavLink>   
+                    Contact
+                  </NavLink>     
                </nav>
                <div className="inline-flex py-3 px-3 my-6">
                 <SocialIcon 
-                url="https://linkedin.com/" 
+                url="https://www.linkedin.com/in/joanna-s-64743b212" 
                 className="mr-4" 
                 target="_blank" 
                 fgColor="#fff" 
@@ -53,14 +53,6 @@ export default function NavBar () {
                 fgColor="#fff" 
                 style={{ height: 35, width: 35 }}
                 />
-                <SocialIcon 
-                url="" 
-                className="mr-4" 
-                target="_blank" 
-                fgColor="#fff" 
-                style={{ height: 35, width: 35 }}
-                />
-                
                </div>
            </div>
        </header> 
